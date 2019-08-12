@@ -10,7 +10,6 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -24,14 +23,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css"
     />
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/SignUp.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/SignUp.js"></script>
+    <link rel="text/javascript" href="../js/SignUp.js" />
+
     <title>Sign Up</title>
   </head>
   <body>
-    <div class="container-fluid">
       <div class="container">
         <center>
           <div class="formPadding">
@@ -42,89 +41,104 @@
                   <p class="h4 mb-4 formTitle">Sign in</p>
                   <div class="row">
                     <div class="col-sm-6">
-                            <input
-                            type="text"
-                            class="form-control mb-5 inputbox"
-                            placeholder="First Name "
-                            required
-                          />
+                      <input
+                        type="text"
+                        class="form-control mb-5 inputbox"
+                        placeholder="First Name "
+                        required
+                      />
                     </div>
                     <div class="col-sm-6">
-                            <input
-                            type="text"
-                            class="form-control mb-5 inputbox"
-                            placeholder="Last Name"
-                            required
-                          />
+                      <input
+                        type="text"
+                        class="form-control mb-5 inputbox"
+                        placeholder="Last Name"
+                        required
+                      />
                     </div>
                     <div class="col-sm-12">
-                            <input
-                            type="text"
-                            class="form-control mb-5 inputbox"
-                            placeholder="Email "
-                            required
-                          />
+                      <input
+                        type="text"
+                        class="form-control mb-5 inputbox"
+                        placeholder="Email "
+                        required
+                      />
                     </div>
                     <div class="col-sm-6">
-                            <input
-                            type="text"
-                            class="form-control mb-5 inputbox"
-                            placeholder="Country "
-                            required
-                          />
+                      <input
+                        type="text"
+                        class="form-control mb-5 inputbox"
+                        placeholder="Country "
+                        required
+                      />
                     </div>
 
-                    
-
                     <div class="col-sm-6">
-                            <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                      <label class="input-group-text ageText" for="inputGroupSelect01">Age</label>
-                                    </div>
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                      <option selected>Choose...</option>
-                                      <option value="1">18-24</option>
-                                      <option value="2">25-32</option>
-                                      <option value="3">33-45</option>
-                                      <option value="3">46+</option>
-                                    </select>
-                            </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <label
+                            class="input-group-text ageText"
+                            for="inputGroupSelect01"
+                            >Age</label
+                          >
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                          <option selected>Choose...</option>
+                          <option value="1">18-24</option>
+                          <option value="2">25-32</option>
+                          <option value="3">33-45</option>
+                          <option value="3">46+</option>
+                        </select>
+                      </div>
                     </div>
                     <div class="col-sm-12">
-                            <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                      <span class="input-group-text">Profile Picture</span>
-                                    </div>
-                                    <div class="custom-file">
-                                      <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                                    </div>  
-                             </div>
-                    </div>
-                    <div class="col-sm-6">
-                            <input
-                            type="password"
-                            class="form-control mb-5 inputbox"
-                            placeholder="Password "
-                            required
+                      <div class="avatar-upload">
+                        <div class="avatar-edit">
+                          <input
+                            type="file"
+                            id="imageUpload"
+                            accept=".png, .jpg, .jpeg"
                           />
-                    </div> <div class="col-sm-6">
-                            <input
-                            type="text"
-                            class="form-control mb-5 inputbox"
-                            placeholder="Confirm Password "
-                            required
-                          />
+                          <label for="imageUpload"></label>
+                        </div>
+                        <div class="avatar-preview">
+                          <div
+                            id="imagePreview"
+                            style="background-image: url(http://i.pravatar.cc/500?img=7);"
+                          ></div>
+                        </div>
+                      </div>
                     </div>
-
-                </div>
-                  <button class="btn btn-info my-1   submitBtn" type="submit">
+                    <div class="col-sm-6 my-3">
+                      <input
+                        type="password"
+                        class="form-control mb-5 inputbox"
+                        placeholder="Password "
+                        required
+                      />
+                    </div>
+                    <div class="col-sm-6 my-3">
+                      <input
+                        type="password"
+                        class="form-control mb-5 inputbox"
+                        placeholder="Confirm Password "
+                        required
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-info my-1   submitBtn"
+                    type="submit"
+                    onclick="return validate();"
+                  >
                     Sign Up
                   </button>
                   <br />
-                  <a href="#" class=" forgotPassword"
-                    >Already you have account</a
-                  >
+                  <div class="col-sm-12 my-4">
+                    <a href="../Index/SignIn.html" class=" forgotPassword"
+                      >Already you have account</a
+                    >
+                  </div>
                 </form>
               </div>
             </div>
@@ -149,6 +163,37 @@
           </div>
         </center>
       </div>
-    </div>
+    <script>
+      // Add the following code if you want the name of the file appear on select
+      function readURL(input) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function(e) {
+            $("#imagePreview").css(
+              "background-image",
+              "url(" + e.target.result + ")"
+            );
+            $("#imagePreview").hide();
+            $("#imagePreview").fadeIn(650);
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+      $("#imageUpload").change(function() {
+        readURL(this);
+      });
+
+      //validate upload file
+
+      // function validate(){
+      // var file= form.file.value;
+      //      var reg = /(.*?)\.(jpg|bmp|jpeg|png)$/;
+      //      if(!file.match(reg))
+      //      {
+      //   	   alert("Invalid File");
+      //   	   return false;
+      //      }
+      //      }
+    </script>
   </body>
 </html>

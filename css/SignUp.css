@@ -1,97 +1,243 @@
 .inputbox {
-    border-radius: 10px;
-    max-width: 500px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+.submitBtn {
+  background-color: #00c100;
+
+  border: 1px solid #00c100;
+}
+.submitBtn:hover {
+  background-color: #00c100;
+  border: 1px solid #00c100;
+}
+.formCus {
+  padding: 5px 0px 0px 0px;
+}
+.forms {
+  background-color: rgba(255, 255, 255, 0.11);
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.formBackground {
+  border-radius: 25px;
+  max-width: 520px;
+}
+.formTitle {
+  color: white;
+  font-family: "Montserrat" !important;
+  font-size: 30px;
+}
+.formPadding {
+  padding-top: 5%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 25%;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+.forgotPassword {
+  color: rgb(184, 176, 176);
+  font-family: "Montserrat" !important;
+  font-size: 15px;
+}
+.forgotPassword:hover {
+  color: white;
+}
+body {
+  background-image: linear-gradient(
+      0deg,
+      rgba(9, 9, 16, 0.8) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../uploads/signinBackImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+}
+.ageText {
+  color: white;
+  font-family: "Montserrat" !important;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+.input-group-prepend {
+  border-radius: 30px;
+}
+.input-group-text {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.custom-file-input {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.custom-file-label {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.custom-file {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.customFileUpload {
+  border-radius: 20px;
+}
+.avatar-upload {
+  margin: 0px 0px 0px 0px !important;
+  padding: 5px 0px 15px 0px !important;
+}
+
+/*file upload*/
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 50px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "\f040";
+  font-family: "FontAwesome";
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  body {
+    height: 145vh;
   }
-  .submitBtn {
-    background-color: #00c100;
-  
-    border: 1px solid #00c100;
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    height: 145vh;
   }
-  .submitBtn:hover {
-    background-color: #00c100;
-    border: 1px solid #00c100;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    height: 145vh;
   }
-  .formCus {
-    padding: 5px 0px 0px 0px;
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    height: 145vh;
   }
-  .forms {
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.11);
-    max-width: 600px;
-    border-radius: 20px;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    height: 170vh;
   }
-  
-  .formBackground {
-    border-radius: 25px;
-    width: 100%;
-    max-width: 520px;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    height: 180vh;
   }
-  .formTitle {
-    color: white;
-    font-family: "Montserrat" !important;
-    font-size: 30px;
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  body {
+    height: 205vh;
   }
-  .formPadding {
-    padding-top: 5%;
+}
+
+@media (min-height: 320px) and (min-width: 480px) {
+  body {
+    height: 205vh;
   }
-  .avatar {
-    vertical-align: middle;
-    width: 25%;
-    height: 500%;
-    border-radius: 50%;
-    padding-top: 10px;
+}
+@media (max-height: 1080px) and (min-width: 2048px) {
+  body {
+    height: 50vh;
   }
-  
-  .container-fluid {
-    background-image: linear-gradient(
-        0deg,
-        rgba(9, 9, 16, 0.8) 50%,
-        rgba(0, 0, 0, 0.4) 100%
-      ),
-      url("../uploads/signinBackImage.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+}
+@media (max-height: 1080px) and (min-width: 1920px) {
+  body {
+    height: 122vh;
   }
-  .forgotPassword{
-      color: rgb(184, 176, 176);
-      font-family: "Montserrat" !important;
-      font-size: 15px;
-  }
-  .forgotPassword:hover{
-      color: white;
-  }
-  body{
-      background-color: rgb(59, 58, 58);
-  }
-  .ageText{
-    color: white;
-    font-family: "Montserrat" !important;
-    font-size: 15px;
-    background-color: white;
-    color:black;
-  }
-  .input-group-prepend{
-      border-radius: 30px;
-  }
-  .input-group-text{
-      background-color: white;
-      color: black;
-      border: 1px solid black;
-      
-  }
-  .custom-file-input{
-    background-color: white;
-    color: black;
-    border: 0px solid white;
-  }
-  .custom-file-label{
-    background-color: white;
-    color: black;
-    border: 0px solid white;
-  }
-  .custom-file{
-    background-color: white;
-    color: black;
-    border: 0px solid white;
-  }
+}

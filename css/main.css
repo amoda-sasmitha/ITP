@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600,900);
 body{
     background: #1b1b1b;  /* fallback for old browsers */
     background: -webkit-linear-gradient( 270deg ,to right, rgb(204, 51, 51), #000000)  !important;  
      background: linear-gradient( 135deg , rgb(44, 44, 44), #0c0c0c ) !important; 
-    font-family: 'Montserrat';
-    font-weight: 400;
+    font-family: 'Roboto';
+    letter-spacing: .015em;
+   
 }
 
 .app-header{
@@ -16,6 +18,25 @@ body{
 .card-container{
     padding: 0px 2% !important;
 }
+input[type=search]{
+    color : white !important;
+}
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+  }
 
 .card{
    

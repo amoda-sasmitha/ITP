@@ -1,0 +1,66 @@
+.inputbox {
+  border-radius: 10px;
+  max-width: 250px;
+}
+.submitBtn {
+  background-color: #00c100;
+
+  border: 1px solid #00c100;
+}
+.submitBtn:hover {
+  background-color: #00c100;
+  border: 1px solid #00c100;
+}
+.formCus {
+  padding: 10px 0px 0px 0px;
+}
+.forms {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.11);
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.formBackground {
+  border-radius: 25px;
+  width: 100%;
+  max-width: 520px;
+}
+.formTitle {
+  color: white;
+  font-family: "Montserrat" !important;
+  font-size: 30px;
+}
+.formPadding {
+  padding-top: 10%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.container-fluid {
+  background-image: linear-gradient(
+      0deg,
+      rgba(9, 9, 16, 0.8) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../uploads/signinBackImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.forgotPassword{
+	color: rgb(184, 176, 176);
+	font-family: "Montserrat" !important;
+	font-size: 15px;
+}
+.forgotPassword:hover{
+	color: white;
+}
+body{
+	background-color: rgb(59, 58, 58);
+}

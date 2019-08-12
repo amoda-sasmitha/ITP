@@ -1,0 +1,37 @@
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1B1B1B, #000000)  !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1B1B1B, #000000 ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.app-header{
+  /* padding: 10px !important; */
+  font-weight: 800 !important;
+  
+}
+
+.card-container{
+    padding: 0px 2% !important;
+}
+
+.card{
+   
+    height: 180px;
+    padding: 0px !important;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 10px; 
+    text-align: center;
+}
+.card-wrapper{
+    padding: 8px 10px !important; 
+}
+
+.Song{
+    vertical-align: center !important;
+   text-align: center;
+   
+}
+
+

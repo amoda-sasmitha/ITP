@@ -29,8 +29,8 @@ body{
 }
 
 .Song{
-    vertical-align: center !important;
-   text-align: center;
+    position:absolute; 
+    bottom:0px;
    
 }
 

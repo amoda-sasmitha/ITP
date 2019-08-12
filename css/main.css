@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);
 body{
     background: #1b1b1b;  /* fallback for old browsers */
     background: -webkit-linear-gradient( 270deg ,to right, rgb(204, 51, 51), #000000)  !important;  
-     background: linear-gradient( 135deg , rgb(59, 59, 59), #000000 ) !important; 
-    
+     background: linear-gradient( 135deg , rgb(44, 44, 44), #0c0c0c ) !important; 
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 .app-header{
@@ -35,12 +37,13 @@ body{
     position:absolute; 
     bottom:0px;
     padding-left : 10px !important;
-    font-weight: bold;
+    font-weight: 600;
   
 }
 .artist-name{
     margin-top: 0px !important; 
    font-size: 0.7em;
+   font-weight: 400;
   
 }
 .sixCardImg{
@@ -59,7 +62,30 @@ body{
   transform: translateY(-50%);
   text-align: center !important;
     position: absolute;
-    font-weight: bold;
+    font-weight: 800;
 }
+
+.avatar{
+    position: relative;
+    width: 90%;
+    height: 0;
+    border-radius: 50%;
+    margin-left: 5%;
+    padding-bottom: 90%;
+    background-position: center; 
+    background-size: cover;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 20px 0 rgba(0,0,0,0.12)!important;
+    
+   
+}
+
+.artist-text{
+    margin-top: 8px !important; 
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+}
+  
+
 
 

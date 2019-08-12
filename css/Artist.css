@@ -7,12 +7,12 @@
     margin: 0px !important;
     background-position-x: 50%;
     background-position-y: center;
-    background-image:  linear-gradient(0deg, rgba(12,12,12,1) 10%, rgba(12,12,12,0.2) 100%) ,url(../uploads/Artists/mihindu_cover2.jpg);
+    background-image:  linear-gradient(0deg, rgba(12,12,12,1) 10%, rgba(12,12,12,0.2) 100%) ,url(../uploads/Artists/mihindu_cover.jpg);
     background-size: cover;
-
+    border-width: 0px !important;
 }
 
-.artist-name{
+.artist-name-text{
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 4.2em;
@@ -23,3 +23,37 @@
     text-align: center !important;
     line-height: 1em;
 }
+
+.songs-list{
+    padding: 0px 5%;
+}
+
+.song-row{
+    background: rgba(22, 22, 22 , 0.4);
+    padding: 12px 0px ;
+    margin-top: 5px;
+}
+
+.song-text{
+    margin: auto !important;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #b4b4b4;
+   
+}
+
+@media screen and (max-width: 900px) {
+    .songs-list{
+        padding: 0px 5%;
+    }
+    .song-text{
+        font-size: 1.2em;
+    }
+    
+.artist-name-text{
+   
+    font-size: 3.7em;
+   
+}
+
+  }

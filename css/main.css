@@ -9,6 +9,14 @@ body{
     letter-spacing: .015em;
    
 }
+a{
+  text-decoration: none !important;
+  color: #ffffff;
+}
+a:hover{
+  color : #ffffff;
+}
+
 h6{
   font-size: 1.2em !important;
 }

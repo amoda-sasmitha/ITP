@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="../css/bootstrap.min.css" >
+   <link href="../css/simple-sidebar.css" rel="stylesheet">
+   <link rel="stylesheet" href="../css/main.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../css/song.css">
+   <link rel="stylesheet" href="../css/comments.css">
+    
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="side" id="sidebar-wrapper">
+          <div class="sidebar-heading">Cassette </div>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action bg-dark">Home</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark">Playlists</a>
+            <a href="#" class="list-group-item list-group-item-action bg-dark">Charts</a>
+           
+          </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+    
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+    
+          <div class="container-fluid">
+            
+              <div class="row card-container" style="padding: 0px !important;">
+                <div class="col-md-12" id="song-banner" >
+                  <div class="row" >
+                    <div class="col-md-6 offset-md-3 mt-5">
+                        <div class="p-1 bg-dark rounded rounded-pill  mb-1">
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <button id="button-addon2" type="submit" class="btn btn-link text-success"><i class="fa fa-search"></i></button>
+                              </div>
+                              <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon2" class="form-control border-0 bg-dark">
+                            </div>
+                          </div>
+                    </div>
+                  </div></div>
+                      <div class="col-12 song-container" >
+                              <div class="row" style="padding: 0px !important" >
+                            <div class="col-md-2 offset-md-0 col-sm-6 offset-sm-3 col-12 song-image-container" >
+                           
+                            </div>
+                            <div class="col-md-10 col-sm-12 col-12"  >
+                                <h2 class="song-name-text">Kampa Nowan Mahamaya (මහාමායා) - Supun Perera
+                                <i onclick="wavesurfer.playPause()" class="fa fa-play-circle fa-lg "></i>
+                                <div id="waveform" width="100%"></div>
+                              </div></div>
+                              </div>
+                            
+                 
+                    </div>
+                    <!------------------------------------------------------------------------------------------------------>
+                    <div class="row card-container" >
+                        <div class=" col-8 comment-section" >
+                                <div class="card-body">
+                                  <h4 class="card-title">23 Comments </h4>
+                                  <ul  class="commentList">
+                                  <li >
+                                    <div class="comment-image-container" >
+                                      <img src="../uploads/Artists/mihidu.jpg" class="comment-image">
+                                    </div>
+                                    <div class="commentText">
+                                      <h6 >Amoda Sasmitha</h6>
+                                        <p class="card-text text-muted">Mauris ac tellus massa. Praesent mollis nec mi eu blandit.
+                                           Nam consequat sapien a ex maximus, ut sollicitudin enim sollicitudin.
+                                            , consectetur malesuada diam.Integer lobortis nisl nulla.</p>
+                                    </div>
+                                   </li>
+                                   <li >
+                                      <div class="comment-image-container" >
+                                        <img src="../uploads/Artists/mihidu.jpg" class="comment-image">
+                                      </div>
+                                      <div class="commentText">
+                                        <h6 >Amoda Sasmitha</h6>
+                                          <p class="card-text text-muted">Mauris ac tellus massa. Praesent mollis nec mi eu blandit.
+                                             Nam consequat sapien a ex maximus, ut sollicitudin enim sollicitudin.
+                                              , consectetur malesuada diam.Integer lobortis nisl nulla.</p>
+                                      </div>
+                                     </li>
+                                </ul> 
+                                </div>
+                             
+                        </div>
+                  </div>
+             
+             
+              
+          
+        </div>
+          </div>
+          </div>
+     
+          <script src="../js/Vibrant.js" ></script>
+          <script src="https://unpkg.com/wavesurfer.js"></script>
+        <script>
+         var color = "red"
+        var img = document.createElement('img');
+          img.setAttribute('src', '../uploads/04.jpg')
+          img.addEventListener('load', function() {
+    var vibrant = new Vibrant(img);
+    var swatches = vibrant.swatches()
+    var rgb = swatches["DarkVibrant"].getRgb();
+     window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + "0.4 )" ;
+       
+     document.getElementById("page-content-wrapper").style.background = "linear-gradient(135deg, " + color + 
+     " 20%, rgba(0,0,0,0.8) 80%)";
+
+});
+    console.log(color);
+var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: '#f4f4f4',
+    progressColor: '#16a085',
+    hideScrollbar : true,
+    barWidth : 3,
+    cursorWidth : 4,
+    cursorColor : "#1abc9c"
+});
+wavesurfer.setHeight(180);
+wavesurfer.load('../uploads/songs/Mahamaya-Supun%20Perera-www.song.lk.mp3');
+        </script>
+    
+      
+</body>
+</html>

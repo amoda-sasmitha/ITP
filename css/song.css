@@ -42,6 +42,12 @@
     width: 100%;
     margin: 5px 0px !important;
     line-height: 1em;
+    cursor: pointer;
+}
+
+.more{
+    font-size: 1.5em;
+    padding: 20px 0px 0px 10px ;
 }
 
 

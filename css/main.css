@@ -3,7 +3,7 @@
 body{
     background: #1b1b1b;  
     background: -webkit-linear-gradient( 270deg ,to right, rgb(204, 51, 51), #000000)  !important;  
-     background: linear-gradient( 135deg , rgb(44, 44, 44), #0c0c0c ) !important; 
+     background: linear-gradient( 135deg , rgba(26, 25, 25, 0.925), #000000 ) !important; 
     font-family: 'Roboto';
   
     letter-spacing: .015em;
@@ -19,6 +19,10 @@ a:hover{
 
 h6{
   font-size: 1.2em !important;
+}
+
+h3{
+  font-size: 1.8em !important;
 }
 
 .app-header{

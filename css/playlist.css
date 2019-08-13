@@ -1,0 +1,83 @@
+.song-banner{
+    
+    
+    height : 340px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+.song-image-container{
+    padding: 0px;
+    border-radius: 20px;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-image:url(../uploads/Playlists/02.jpg);
+    background-size: cover;
+    height : 220px;
+    width : 220px;
+}
+.song-container{
+    padding: 2.5% 5% ;
+    background-color:rgba(0,0,0,0.15);
+    margin-top: 20px; 
+   
+}
+.descrption{
+    font-size: 1.2em !important;
+    max-width: 65% !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#waveform{
+    margin-top: 10px !important; 
+}
+
+.song-name-text{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 2.8em;
+    width: 100%;
+    margin: 5px 0px !important;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+.playlist-table-wrapper{
+    padding: 0px 2.5%;
+    background-color:rgba(0,0,0,0.15);
+}
+
+.table thead th {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.219) !important;
+}
+.table td, .table th {
+    
+    border-top: 0px solid !important;
+    font-size: 1.3em; 
+}
+@media screen and (max-width: 900px) {
+    .descrption{
+       
+        max-width: 95% !important;
+       
+    }
+
+    .table td, .table th {
+      
+        font-size:1em; 
+    }
+
+    .song-name-text{
+        font-size: 2.2em;
+    }
+    .descrption{
+        font-size: 0.9em;
+    }
+    .table thead th {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.219) !important;
+    }
+    
+}

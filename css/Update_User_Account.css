@@ -18,7 +18,60 @@
   border-radius: 50%;
   padding-top: 10px;
 }
-
+.forgotPassword {
+  color: rgb(184, 176, 176);
+  font-family: "Montserrat" !important;
+  font-size: 15px;
+}
+.forgotPassword:hover {
+  color: white;
+}
+.back {
+  background-image: linear-gradient(
+      0deg,
+      rgba(9, 9, 16, 0.8) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../uploads/signinBackImage.png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.ageText {
+  color: white;
+  font-family: "Montserrat" !important;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+.input-group-prepend {
+  border-radius: 30px;
+}
+.input-group-text {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.custom-file-input {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.custom-file-label {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.custom-file {
+  background-color: white;
+  color: black;
+  border: 0px solid white;
+}
+.customFileUpload {
+  border-radius: 20px;
+}
 .avatar-upload {
   margin: 0px 0px 0px 0px !important;
   padding: 5px 0px 15px 0px !important;
@@ -83,6 +136,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 .titles {
   font-size: 25px;
   font-family: "Montserrat" !important;
@@ -98,7 +153,6 @@
   font-size: 20px;
   font-family: "Montserrat" !important;
   padding-left: 20px !important;
-  padding-top: 20px;
 }
 
 .hrline {
@@ -106,9 +160,9 @@
 }
 
 /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
 
 @media (min-width: 481px) and (max-width: 767px) {
   .titles {
@@ -137,9 +191,9 @@
 }
 
 /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
 
 @media (min-width: 320px) and (max-width: 480px) {
   .titles {
@@ -166,20 +220,13 @@
     font-size: 20px;
   }
 }
-.d-flex{
-  background-image: linear-gradient(
-  0deg,
-  rgba(9, 9, 16, 0.8) 100%,
-  rgba(0, 0, 0, 0.4) 100%
-),
-url("../uploads/profile.jpg");
-  
-  width: 100%;
-height: 100%;
-background-repeat: no-repeat;
-background-size: cover;
+.btn{
+    padding-bottom: 10px;
 }
-.btn:hover{
-  background-color:#211F21;
-  border:none;
+
+.inputBox{
+  border-radius: 10px;
+  max-width: 500px;
 }
+.custom-select{border-radius: 10px;
+  max-width: 500px;}

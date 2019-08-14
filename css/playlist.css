@@ -56,7 +56,7 @@
 .table td, .table th {
     
     border-top: 0px solid !important;
-    font-size: 1.3em; 
+    font-size: 1.2em; 
 }
 @media screen and (max-width: 900px) {
     .descrption{

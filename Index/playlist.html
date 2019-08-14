@@ -14,7 +14,7 @@
     
     <title>Document</title>
 </head>
-<body>
+<body >
  
     <div class="d-flex" id="wrapper">
 
@@ -54,7 +54,7 @@
                             <div class="col-md-3  col-sm-6  col-12 song-image-container" >
                            
                             </div>
-                            <div class="col-md-9 col-sm-6 col-12"  >
+                            <div class="col-md-9 col-sm-6 col-12 pl-4"  >
                               <h4 class="descrption card-subtitle text-muted mt-2"><b>PLAYLIST</b></h4>
                               <h2 class="song-name-text"  >Low Volume Funk
                                <h6 class="descrption text-muted mt-2">Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -138,10 +138,10 @@
     var vibrant = new Vibrant(img);
     var swatches = vibrant.swatches()
     var rgb = swatches["DarkVibrant"].getRgb();
-     window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + "0.4 )" ;
+     window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + ".6 )" ;
        
      document.getElementById("page-content-wrapper").style.background = "linear-gradient(135deg, " + color + 
-     " 20%, rgba(0,0,0,0.8) 80%)";
+     " 0%, rgba(0,0,0,0) 110%)";
 
 });
        </script>

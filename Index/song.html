@@ -144,17 +144,17 @@
           <script src="../js/Vibrant.js" ></script>
           <script src="https://unpkg.com/wavesurfer.js"></script>
         <script>
-         var color = "red"
+        var color = "red"
         var img = document.createElement('img');
           img.setAttribute('src', '../uploads/04.jpg')
           img.addEventListener('load', function() {
     var vibrant = new Vibrant(img);
     var swatches = vibrant.swatches()
     var rgb = swatches["DarkVibrant"].getRgb();
-     window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + "0.4 )" ;
+     window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + ".6 )" ;
        
      document.getElementById("page-content-wrapper").style.background = "linear-gradient(135deg, " + color + 
-     " 20%, rgba(0,0,0,0.8) 80%)";
+     " 0%, rgba(0,0,0,0) 110%)";
 
 });
    

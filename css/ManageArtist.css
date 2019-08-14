@@ -1,0 +1,75 @@
+.artist-banner{
+    background-color: white;
+    /* background: linear-gradient(0deg, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0) 100%) ,url(../uploads/Artists/mihindu_cover.jpg);  */
+    background-position-x: 50%; 
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.artist-image{
+    width: 100px;
+    border-radius: 50%;
+    bottom: 0; 
+    float: left;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.artist-color {
+   font-size: 2.4em;
+}
+
+.card-text{
+    font-size: 1.3em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.25em ;
+    font-weight: 600;
+    color: #525050;
+}
+
+.card-text-small{
+    font-size: 1.3em;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    font-weight: 600;
+    color: #525050;
+}
+
+ li {
+    margin:0;
+    margin-top:4px;
+    border-bottom: #f4f4f418 2px solid;
+  
+}
+
+.comment-section{
+    background-color:rgba(255, 255, 255, 0.03);
+    margin: 15px 0px;
+}
+
+.commentList {
+    padding:0;
+    list-style:none;
+   
+}
+
+.artist-image-banner{
+    width: 100%;
+    
+}
+.imageX{
+    padding: 0px !important;
+    margin:  0px !important;
+}
+
+.overlayer{
+    background:  linear-gradient(0deg, rgb(255, 255, 255) 10%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height:100px;
+    left: 0;
+}

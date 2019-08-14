@@ -1,0 +1,62 @@
+.label-text{
+    font-size: 1.1em !important;
+    color: rgba(84, 85, 85, 0.788);
+}
+
+.form-BG{
+    background-color: rgba(229, 231, 231, 0.151) !important;
+    padding: 10px 20px !important;
+    border: 2px solid rgba(68, 85, 233, 0.11) !important;
+    border-radius: 10px;
+}
+
+.pre{
+    width : 100%;
+    height: auto;
+}
+
+#additemIMG1{
+    
+    width : 85%;
+    margin: auto;
+    
+    
+}
+.custom-file-upload {
+border: 1px solid #ccc;
+display: inline-block;
+font-size: 1.1em !important;
+color: rgb(84, 85, 85);
+font-weight: 600;
+padding: 10px;
+text-align: center;
+width: 85%;
+background-color: rgba(229, 231, 231, 0.151) !important;
+cursor: pointer;
+}
+input[type="file"] {
+display: none;
+}
+#submitbtn{
+margin-top: 5px;
+background-color: #27ae60;
+color: white;
+font-size: 18px;
+}
+
+
+.permission-text{
+    font-size: 0.9em !important;
+    font-weight: bold;
+    color: rgba(84, 85, 85, 0.897);
+    padding-left: 5px;
+}
+
+.permission-text-header{
+    font-size: 1em !important;
+    font-weight: bold;
+    color: rgba(70, 71, 71, 0.74);
+   
+    text-align: justify;
+    text-justify: inter-word;
+}

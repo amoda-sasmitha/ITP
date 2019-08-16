@@ -1,0 +1,119 @@
+
+  .formArea
+  {
+    padding: 10px 0px 0px 0px;
+    position: relative;
+    max-width: 500px;
+    width: 100% !important;
+  }
+  
+  .forms 
+  {
+    background-color: rgba(255, 255, 255, 0.11);
+    width: 100% !important;
+    border-radius: 20px;
+  }
+
+  .inputBox 
+  {
+    border-radius: 10px;
+    max-width: 500px;
+    width:100% !important;
+  }
+  
+  .formBackground 
+  {
+    border-radius: 25px;
+    width: 100% !important;
+    max-width: 520px;
+  }
+  
+  .formTitle 
+  {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" !important;
+    font-weight: 1000;
+    padding-bottom: 50px;
+    text-shadow:
+    -2px -2px 0 rgb(8, 180, 2),
+    2px -2px 0 rgb(8, 180, 2),
+    -2px 2px 0 rgb(8, 180, 2),
+    2px 2px 0 rgb(8, 180, 2); 
+  }
+
+  .submitButton
+  {
+    background-color: rgb(8, 180, 2);
+    border: 1px solid rgb(8, 180, 2);
+  }
+  
+  .submitBtn:hover
+  {
+    background-color: rgb(6, 133, 2);
+    border: 1px solid rgb(6, 133, 2);
+  }
+  
+  .formPadding 
+  {
+    padding-top: 10%;
+    padding-bottom: 10%; 
+  }
+  
+  .bckgrnd 
+  {
+    background-image: linear-gradient(
+        0deg,
+        rgba(9, 9, 16, 0.8) 50%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url("../uploads/Payment_Details/PaymentDetailsBackground.jpg") !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100% !important;
+    background-size: cover !important;
+  }
+  
+  body
+  {
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .lar
+  {
+    width : 100% !important;
+  }
+
+  .textBoxLable
+  {
+    text-align: left !important;
+    color: white;
+    font-family: "Montserrat" !important;
+    font-size: 16px;
+    text-shadow:
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0); 
+  }
+  
+  .cardIcons
+  {
+    height: 60px;
+    width : 60px;
+    padding: 10px
+  }
+
+  .cardIconText
+  {
+    color: white;
+    font-family: "Montserrat" !important;
+    font-size: 15px;
+    display: inline;
+    text-shadow:
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0); 
+  }

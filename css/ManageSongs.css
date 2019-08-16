@@ -1,10 +1,14 @@
+h3{
+    font-size: 1.4em !important;
+}
+
 .table thead th {
     border-bottom: 3px solid rgba(0, 0, 0, 0.219) !important;
 }
 .table td, .table th {
     font-weight: 600;
     border-top: 0px solid !important;
-    font-size: 1.2em; 
+    font-size: 1em; 
 }
 @media screen and (max-width: 900px) {
    
@@ -14,7 +18,7 @@
     }
 
     .song-name-text{
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
     .descrption{
         font-size: 0.9em;

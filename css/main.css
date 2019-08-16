@@ -121,6 +121,7 @@ input[type=search]{
     margin-top: 8px !important; 
     font-weight: bold;
     text-align: center;
+    font-size: 1em !important;
     font-weight: 600;
 }
   

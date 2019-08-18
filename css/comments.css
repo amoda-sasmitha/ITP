@@ -25,7 +25,7 @@
     margin:0;
     margin-top:15px;
     border-bottom: #f4f4f418 2px solid;
-    padding-bottom: 10px; 
+    padding-bottom: 15px; 
 }
 .commentList li > div {
     display:table-cell;
@@ -39,4 +39,11 @@
 .comment-section{
     background-color:rgba(255, 255, 255, 0.03);
     margin: 15px 0px;
+}
+
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+    text-align: end;
 }

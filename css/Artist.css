@@ -12,6 +12,9 @@
     border-width: 0px !important;
 }
 
+h3{
+    font-size: 1.8em !important;
+  }
 .artist-name-text{
     font-family: 'Roboto';
     font-weight: 900;
@@ -36,10 +39,17 @@
 
 .song-text{
     margin: auto !important;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
     color: #b4b4b4;
    
+}
+
+.about{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.25em ;
+    color: #b4b4b4;
 }
 
 @media screen and (max-width: 900px) {

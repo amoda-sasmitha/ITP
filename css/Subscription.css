@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,600,900);
+body{
+    /* background: #1b1b1b;  
+    background: -webkit-linear-gradient( 270deg ,to right, rgb(204, 51, 51), #000000)  !important;  
+     background: linear-gradient( 135deg , rgba(26, 25, 25, 0.925), #000000 ) !important;  */
+     background-image: linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+    font-family: 'Roboto'!important;
+  
+    letter-spacing: .015em;
+   
+}
+a{
+  text-decoration: none !important;
+  color: #ffffff;
+}
+a:hover{
+  color : #ffffff;
+}
+
+h6{
+  font-size: 1.2em !important;
+}
+
+h3{
+  font-size: 1.8em !important;
+}
+
+.app-header{
+  /* padding: 10px !important; */
+  font-weight: 800 !important;
+  
+}
+
+.card-container{
+    padding: 30px 2% !important;
+}
+input[type=search]{
+    color : white !important;
+}
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+  }
+
+.card{
+   
+    height: 180px;
+    padding: 0px !important;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 0px; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    border-radius: 15px;
+    border-width: 0px !important;
+    
+}
+.card-wrapper{
+    padding: 8px 10px !important; 
+}
+
+.Song{
+    position:absolute; 
+    bottom:0px;
+    padding-left : 10px !important;
+    font-weight: 600;
+  
+}
+.artist-name{
+    margin-top: 0px !important; 
+   font-size: 0.7em;
+   font-weight: 400;
+  
+}
+.sixCardImg{
+   padding: 0px !important;
+   height :100px !important;
+   background-position: center; 
+   background-size: cover;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 20px 0 rgba(0,0,0,0.12)!important;
+    
+}
+
+.sixCardText{
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center !important;
+    position: absolute;
+    font-weight: 800;
+}
+
+.avatar{
+    position: relative;
+    width: 90%;
+    height: 0;
+    border-radius: 50%;
+    margin-left: 5%;
+    padding-bottom: 90%;
+    background-position: center; 
+    background-size: cover;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 20px 0 rgba(0,0,0,0.12)!important;
+    
+   
+}
+
+.artist-text{
+    margin-top: 8px !important; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em !important;
+    font-weight: 600;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+.formArea
+{
+  padding: 10px 0px 0px 0px;
+  position: relative;
+  max-width: 500px;
+  width: 100% !important;
+  border-color: #ffffff;
+  border: 10px;
+}
+
+.forms 
+{
+  background-color: rgba(255, 255, 255, 0.11);
+  width: 100% !important;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: 50px white !important;
+  padding-bottom: 30px;
+}
+
+.inputBox 
+{
+  border-radius: 10px;
+  max-width: 500px;
+  width:100% !important;
+}
+
+.formBackground 
+{
+  border-radius: 25px;
+  border-color: #ffffff;
+  border: 10px;
+  width: 100% !important;
+  max-width: 520px;
+  padding: 20px;
+}
+
+.formTitle 
+{
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat" !important;
+  font-weight: 1000;
+  padding-bottom: 50px;
+  text-shadow:
+  -2px -2px 0 rgb(8, 180, 2),
+  2px -2px 0 rgb(8, 180, 2),
+  -2px 2px 0 rgb(8, 180, 2),
+  2px 2px 0 rgb(8, 180, 2); 
+}
+
+.submitButton
+{
+  background-color: rgb(8, 180, 2);
+  border: 1px solid rgb(8, 180, 2);
+}
+
+.submitBtn:hover
+{
+  background-color: rgb(6, 133, 2);
+  border: 1px solid rgb(6, 133, 2);
+}
+
+.formPadding 
+{
+  padding-top: 10%;
+  padding-bottom: 10%; 
+}
+
+.bckgrnd 
+{
+  background-image: linear-gradient(
+      0deg,
+      rgba(9, 9, 16, 0.8) 50%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../uploads/Payment_Details/PaymentDetailsBackground.jpg") !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100% !important;
+  background-size: cover !important;
+}
+
+body
+{
+  background-color: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.lar
+{
+  width : 100% !important;
+}
+
+.textBoxLable
+{
+  text-align: left !important;
+  color: white;
+  font-family: "Montserrat" !important;
+  font-size: 16px;
+  text-shadow:
+  -1px -1px 0 rgb(0, 0, 0),
+  1px -1px 0 rgb(0, 0, 0),
+  -1px 1px 0 rgb(0, 0, 0),
+  1px 1px 0 rgb(0, 0, 0); 
+}
+
+
+
+
+
+
+.pageTitle
+{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" !important;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder; 
+}
+
+.hLine
+{
+    border: 1px dashed white;
+    border-radius: 25%;
+}
+
+table 
+{
+    border:none;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 20px;
+}
+
+table td 
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" !important;
+}
+
+table td:first-child 
+{
+    border-left: none;
+}
+
+table td:last-child 
+{
+    border-right: none;
+}
+
+.SubHead
+{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" !important;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder; 
+    text-shadow:
+    -2px -2px 0  rgb(0, 119, 30),
+    2px -2px 0  rgb(0, 119, 30),
+    -2px 2px 0  rgb(0, 119, 30),
+    2px 2px 0  rgb(0, 119, 30);
+}
+
+.formButton
+{
+    background-color:  rgb(0, 119, 30);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat" !important;
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.formButton:hover
+{
+    background-color:  rgb(0, 63, 16);
+}

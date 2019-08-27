@@ -38,7 +38,15 @@ h3{
     margin: -5px 10px 0px 0px;
 
 }
+.table-image-song{
+    width: 35px;
+    height: 35px;
+   
+    display: flex;
+    float: left;
+    margin: -5px 10px 0px 0px;
 
+}
  .pagination>li>a
  {
   border: 1px solid #2c3e50 !important;
@@ -50,10 +58,84 @@ h3{
   color: #fff !important;
 }
 
+/* Admin Panel Cards */
+.cards{
+	color : white;
+	padding : 0px 10px 5px 15px;
+	  box-shadow:  0 0.1em 1em rgba(0, 0, 0, 0.1);
+	  margin : 5px;
+	  border-radius : 8px;
+}
 
+.card-text{
+    font-size: 1.1em;
+    margin: 0px !important;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.cardholder{
+	padding : 0px 5px 5px 0px !important;
+}
+
+.cardNo{
+	font-size : 2.2em !important;
+    margin : 10px 0px 0px 0px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.cards-in-admin{
+    background: #ffffff; 
+    padding: 10px;
+    box-shadow:  0 0.1em 1em rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.card-no-padding{
+    padding: 0px !important;
+}
+
+.back-card{
+    background: #1abc9cb4;
+   
+    padding: 6px 4px 2px 6px  !important;  
+    border-radius: 4px 4px 0px 0px ;
+}
+.text-in-backcard {
+ color: white; 
+    font-size: 1em;
+    font-weight: 900 !important;
+}
+
+#card01{
+	
+	background: no-repeat center right url("../uploads/Icons/Use")  , linear-gradient(87deg,#5e72e4 0,#825ee4 100%)!important;
+}	
+
+#card02{
+	background: url("../images/department2.png") no-repeat center right,linear-gradient(87deg,#11cdef 0,#1171ef 100%)!important;
+}
+
+#card03{
+	background: url("../images/designation.png") no-repeat center right,linear-gradient(87deg, rgb(245, 54, 92) 0px, rgb(245, 96, 54) 100%) !important;
+}
+
+#card04{
+	background: url("../images/mail2.png") no-repeat center right,linear-gradient(87deg,#172b4d 0,#1a174d 100%)!important;
+}
+
+.h3-no-margin{
+    margin-bottom: 0px !important;
+}
+/* ---------------- */
 
 @media screen and (max-width: 900px) {
    
+    .View-text{
+        display: none;
+    }
+
+
     .table td, .table th {
       
         font-size:0.8em; 

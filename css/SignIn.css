@@ -50,7 +50,7 @@
 .forgotPassword:hover {
   color: white;
 }
-.backs{
+.back {
   background-image: linear-gradient(
       0deg,
       rgba(9, 9, 16, 0.8) 50%,
@@ -60,7 +60,6 @@
   background-repeat: no-repeat;
   /* background-size: contain; */
   width: 100%;
-  /* height: 100% !important; */
   height: 100% !important;
   background-size: cover !important;
 }
@@ -70,66 +69,3 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
-
-
-
-
-
-@media  (min-height: 1280px) {
-  body {
-    height: 145vh;
-  }
-}
-
-/*
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    height: 145vh;
-  }
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  body {
-    height: 145vh;
-  }
-}
-
-
-
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    height: 170vh;
-  }
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-  body {
-    height: 180vh;
-  }
-}
-@media (min-width: 360px) and (max-width: 480px) {
-  body {
-    height: 205vh;
-  }
-}
-
-@media (min-height: 320px) and (min-width: 480px) {
-  body {
-    height: 205vh;
-  }
-}
-@media (max-height: 1080px) and (min-width: 2048px) {
-  body {
-    height: 50vh;
-  }
-}
-@media (max-height: 1080px) and (min-width: 1920px) {
-  body {
-    height: 122vh;
-  }
-} */

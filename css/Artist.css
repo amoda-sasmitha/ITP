@@ -13,12 +13,12 @@
 }
 
 h3{
-    font-size: 1.8em !important;
+    font-size: 1.4em !important;
   }
 .artist-name-text{
     font-family: 'Roboto';
     font-weight: 900;
-    font-size: 4.2em;
+    font-size: 3.8em;
     position: absolute;
       top:60%;
     width: 100%;
@@ -39,7 +39,7 @@ h3{
 
 .song-text{
     margin: auto !important;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 400;
     color: #b4b4b4;
    
@@ -48,7 +48,7 @@ h3{
 .about{
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1.25em ;
+    font-size: 1em ;
     color: #b4b4b4;
 }
 

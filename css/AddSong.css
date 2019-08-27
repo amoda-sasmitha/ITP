@@ -1,5 +1,5 @@
 .label-text{
-    font-size: 1.1em !important;
+    font-size: 0.9em !important;
     color: rgba(84, 85, 85, 0.788);
 }
 
@@ -25,7 +25,7 @@
 .custom-file-upload {
 border: 1px solid #ccc;
 display: inline-block;
-font-size: 1.1em !important;
+font-size: 0.9em !important;
 color: rgb(84, 85, 85);
 font-weight: 600;
 padding: 10px;
@@ -46,14 +46,14 @@ font-size: 18px;
 
 
 .permission-text{
-    font-size: 0.9em !important;
+    font-size: 0.8em !important;
     font-weight: bold;
     color: rgba(84, 85, 85, 0.897);
     padding-left: 5px;
 }
 
 .permission-text-header{
-    font-size: 1em !important;
+    font-size: 0.9em !important;
     font-weight: bold;
     color: rgba(70, 71, 71, 0.74);
    

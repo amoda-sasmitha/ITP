@@ -135,8 +135,9 @@
         var img = document.createElement('img');
           img.setAttribute('src', '../uploads/Playlists/02.jpg')
           img.addEventListener('load', function() {
-    var vibrant = new Vibrant(img);
-    var swatches = vibrant.swatches()
+   
+            var vibrant = new Vibrant(img);
+      var swatches = vibrant.swatches()
     var rgb = swatches["DarkVibrant"].getRgb();
      window.color =  "rgba( "+rgb[0] +", " + rgb[1]+", " + rgb[2] + ", " + ".6 )" ;
        

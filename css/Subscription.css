@@ -154,6 +154,7 @@ input[type=search]{
   border-style: solid;
   border-color: 50px white !important;
   padding-bottom: 30px;
+  border-color: rgb(0, 122, 37)
 }
 
 .inputBox 
@@ -200,27 +201,15 @@ input[type=search]{
 
 .formPadding 
 {
-  padding-top: 10%;
-  padding-bottom: 10%; 
+  padding-top: 5%;
+  padding-bottom: 5%; 
 }
 
-.bckgrnd 
-{
-  background-image: linear-gradient(
-      0deg,
-      rgba(9, 9, 16, 0.8) 50%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
-    url("../uploads/Payment_Details/PaymentDetailsBackground.jpg") !important;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100% !important;
-  background-size: cover !important;
-}
+
 
 body
 {
-  background-color: none;
+  background-color: white;
   padding: 0px;
   margin: 0px;
 }
@@ -237,10 +226,10 @@ body
   font-family: "Montserrat" !important;
   font-size: 16px;
   text-shadow:
-  -1px -1px 0 rgb(0, 0, 0),
-  1px -1px 0 rgb(0, 0, 0),
-  -1px 1px 0 rgb(0, 0, 0),
-  1px 1px 0 rgb(0, 0, 0); 
+  -2px -2px 0 rgb(0, 0, 0),
+  2px -2px 0 rgb(0, 0, 0),
+  -2px 2px 0 rgb(0, 0, 0),
+  2px 2px 0 rgb(0, 0, 0); 
 }
 
 
@@ -250,12 +239,17 @@ body
 
 .pageTitle
 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Montserrat" !important;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: bolder; 
+    text-shadow:
+    -1px -1px 0 rgb(125, 125, 125),
+    1px -1px 0 rgb(125, 125, 125),
+    -1px 1px 0 rgb(125, 125, 125),
+    1px 1px 0 rgb(125, 125, 125); 
 }
 
 .hLine
@@ -295,7 +289,7 @@ table td:last-child
 .SubHead
 {
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Montserrat" !important;
     text-align: center;
     padding-top: 30px;

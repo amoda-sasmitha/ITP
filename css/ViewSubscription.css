@@ -1,14 +1,10 @@
 
   .titles {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Montserrat" !important;
     padding-top: 10px;
     padding-right: 10px;
-    text-shadow:
-    -1px -1px 0 rgb(0, 0, 0),
-    1px -1px 0 rgb(0, 0, 0),
-    -1px 1px 0 rgb(0, 0, 0),
-    1px 1px 0 rgb(0, 0, 0); 
+    font-weight: bolder;
   }
   .detailsBox {
     background-color: rgba(255, 255, 255, 0.11);
@@ -16,7 +12,7 @@
     border-radius: 30px;
   }
   .labelDetails {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Montserrat" !important;
     padding-left: 20px !important;
     padding-top: 20px;
@@ -42,6 +38,7 @@
     .detailsTitle {
       font-family: "Montserrat" !important;
       padding: 10%;
+      font-weight: bolder;
     }
     .iconDetails {
       font-size: 20px;
@@ -56,9 +53,9 @@
       padding-right: 10px;
     }
     .detailsBox {
-      background-color: rgba(255, 255, 255, 0.11);
       max-width: 650px;
       border-radius: 30px;
+      background-image: linear-gradient(rgb(63, 63, 63), rgb(0, 0, 0));
     }
     .labelDetails {
       font-size: 10px;
@@ -71,23 +68,12 @@
     }
 
   }
-  .d-flex{
-    background-image: linear-gradient(
-    0deg,
-    rgba(9, 9, 16, 0.8) 100%,
-    rgba(0, 0, 0, 0.4) 100%
-  ),
-  url("../uploads/ViewSubscription/viewsubscriptionbackground.jpg");
-    width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+
   .DltSubBtn
   {
-    background-color:rgb(4, 32, 107);
+    background-color:rgb(60, 60, 60);
     border: none;
   }
   .btn:hover{
-    background-color:#211F21;
+    background-color: rgb(30, 30, 30);
   }

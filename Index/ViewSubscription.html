@@ -25,7 +25,7 @@
 
     <title>View Subscription</title>
   </head>
-  <body style="background: rgb(12,12,12) !important;">
+  <body>
     <div class="d-flex" id="wrapper">
       <!-- Sidebar -->
       <div class="side" id="sidebar-wrapper">
@@ -49,83 +49,54 @@
 
         <div class="container-fluid">
 
-          <div class="row card-container">
-
-            <div class="col-md-6 offset-md-3 mt-5" style="padding-bottom: 20px;">
-
-              <div class="p-1 bg-dark rounded rounded-pill  mb-1">
-
-                <div class="input-group">
-
-                  <div class="input-group-prepend">
-
-                    <button id="button-addon2" type="submit" class="btn btn-link text-success">
-                      <i class="fa fa-search"></i>
-                    </button>
-
-                  </div>
-
-                  <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon2" class="form-control border-0 bg-dark"/>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <!----------------------------------------------------------------------------------------------------------------------->
           <center>
           <div class="row card-container" style="margin-bottom: 20px;">
 
-            <div class="col-md-12 songs-list">
-            
-              <hr> 
+            <div class="col-md-12 songs-list" style="background-color: rgb(255, 255, 255)">
 
-              <div class="col-md-12 col-sm-12 col-xs-12 ">
+              <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 40px">
                 
-                  <div class="col-md-12 detailsBox">
+                  <div class="col-md-12 detailsBox" style="background-image: linear-gradient(rgb(240, 240, 240), rgb(180, 180, 180));">
 
-                    <br><hr>
+                    <br><hr style="height: 2px" color="#3c3c3c">
 
-                        <h2 class = "detailsTitle"style="text-align: center">My Subscription</h2>
+                        <h2 class = "detailsTitle" style="text-align: center; color: #000;">My Subscription</h2>
 
-                    <hr><br>
+                    <hr style="height: 2px" color="#3c3c3c"><br>
 
                     <table>
 
                       <tr>
-                        <td><label class="titles">Subscription Type</label></td>
-                        <td><label class="labelDetails">: Gold Package</label></td>
+                        <td><label class="titles" style="color: #000;">Subscription Type</label></td>
+                        <td><label class="labelDetails" style="color: #000;">: Premium Package</label></td>
                       </tr>
 
                       <tr>
-                        <td><label class="titles">Name </label></td>
+                        <td><label class="titles" style="color: #000;">Name </label></td>
                         <td>
-                          <label class="labelDetails">: A.B.C.Perera</label>
+                          <label class="labelDetails" style="color: #000;">: A.B.C.Perera</label>
                         </td>
                       </tr>
 
                       <tr>
-                        <td><label class="titles">Amount Payed</label></td>
-                        <td><label class="labelDetails">: Rs.5000.00</label>
+                        <td><label class="titles" style="color: #000;">Amount Payed</label></td>
+                        <td><label class="labelDetails" style="color: #000;">: Rs.5000.00</label>
                         </td>
                       </tr>
 
                       <tr>
-                        <td><label class="titles">Starting Date</label></td>
-                        <td><label class="labelDetails">: 12/06/2019</label></td>
+                        <td><label class="titles" style="color: #000;">Starting Date</label></td>
+                        <td><label class="labelDetails" style="color: #000;">: 12/06/2019</label></td>
                       </tr>
 
                       <tr>
-                            <td><label class="titles">Expiration Date</label></td>
-                            <td><label class="labelDetails">: 12/06/2020</label></td>
+                            <td><label class="titles" style="color: #000;">Expiration Date</label></td>
+                            <td><label class="labelDetails" style="color: #000;">: 12/07/2019</label></td>
                         </tr>
 
                       <tr>
-                        <td class="titles"><label>Valid Time</label></td>
-                        <td><label class="labelDetails">: 12 Months</label></td>
+                        <td class="titles" style="color: #000;"><label>Valid Time</label></td>
+                        <td><label class="labelDetails" style="color: #000;">: 1 Month</label></td>
                       </tr>
 
                     </table>
@@ -139,6 +110,68 @@
                   </div>
 
                   <br/><br/>
+
+                  <div class="table-responsive" style="margin-top: 50px; margin-bottom: 50px">
+                    <table class="table table-striped mysongs ">
+                        <thead  class="thead-primary">
+                          <tr>
+                            <th scope="col" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 20px;">Package Type</th>
+                            <th scope="col" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 20px;">Start Date</th>
+                            <th scope="col" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 20px;">End Date</th>
+                            <th scope="col" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 20px;">Duration</th>
+                            <th scope="col" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 20px;">Payed Amount</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Premium</th>
+                            <td>2019-05-15</td>
+                            <td>2019-05-12</td>
+                            <td>1 Month</td>
+                            <td>Rs.5000.00</td>
+
+                          </tr>
+
+                          <tr>
+                            <th scope="row">Premium</th>
+                            <td>2019-05-15</td>
+                            <td>2019-05-12</td>
+                            <td>1 Month</td>
+                            <td>Rs.5000.00</td>
+
+                          </tr>
+
+                          <tr>
+                              <th scope="row">Premium</th>
+                              <td>2019-05-15</td>
+                              <td>2019-10-11</td>
+                              <td>1 Month</td>
+                              <td>Rs.5000.00</td>
+
+                            </tr>
+
+                            <tr>
+                              <th scope="row">Premium</th>
+                              <td>2019-05-15</td>
+                              <td>2019-04-13</td>
+                              <td>1 Month</td>
+                              <td>Rs.5000.00</td>
+
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Premium</th>
+                                <td>2019-05-15</td>
+                                <td>2019-05-15</td>
+                                <td>1 Month</td>
+                                <td>Rs.5000.00</td>
+
+                            </tr>
+                             
+                              </tbody>
+                              </table>
+                              </div>
 
                 </center>
 

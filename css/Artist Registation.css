@@ -1,0 +1,95 @@
+body
+{
+    background-image: linear-gradient(to right, #ff1a1a , #262626 );
+    margin-top: 150px !important;
+}
+
+.register-left
+{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.register-left img
+{
+    width: 210px;
+    height: 210px;
+    margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: 18px;
+    padding: 30px;
+    animation: mover 1s infinite alternate;
+}
+
+.register-left h3
+{
+    margin-top: -30px;
+}
+.register-left h4
+{
+    margin-top: -10px;
+    padding: 10px 20px 0;
+}
+
+.register-left .btn-primary
+{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #000000;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.register-left .btn-primary:hover
+{
+    background:#ff5722;
+}
+
+.register-right
+{
+     border:none;
+     background: #f8f8f8;
+     border-top-left-radius: 10% 50%;
+     border-bottom-left-radius: 10% 50%;
+     padding: 25px;
+}
+
+.register-right h3
+{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.register-form
+{
+    padding: 30px; 
+}
+
+.register-right .btn-primary
+{
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #000000;
+    font-weight: 600; 
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.register-right .btn-primary:hover
+{
+    background: #ff5722;
+}
+
+@keyframes mover
+{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-20px);}
+}

@@ -19,11 +19,11 @@ a:hover{
 }
 
 h6{
-  font-size: 1em !important;
+  font-size: 1.2em !important;
 }
 
 h3{
-  font-size: 1.4em !important;
+  font-size: 1.8em !important;
 }
 
 .app-header{
@@ -75,7 +75,7 @@ input[type=search]{
     position:absolute; 
     bottom:0px;
     padding-left : 10px !important;
-    font-weight: 400;
+    font-weight: 600;
   
 }
 .artist-name{
@@ -122,18 +122,9 @@ input[type=search]{
     font-weight: bold;
     text-align: center;
     font-size: 1em !important;
-    font-weight: 400;
+    font-weight: 600;
 }
   
-.image-add-btn{
-  width: 25%;
-  margin-bottom: 10px;
-  opacity: 0.6;
-}
 
-.addbtntext{
-  font-size: 1.1em !important;
-  opacity: 0.6;
-}
 
 

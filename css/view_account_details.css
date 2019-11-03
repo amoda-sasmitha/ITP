@@ -166,20 +166,28 @@
     font-size: 20px;
   }
 }
-.d-flex{
+.d-flex {
   background-image: linear-gradient(
-  0deg,
-  rgba(9, 9, 16, 0.8) 100%,
-  rgba(0, 0, 0, 0.4) 100%
-),
-url("../uploads/profile.jpg");
-  
+      0deg,
+      rgba(9, 9, 16, 0.8) 100%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../uploads/profile.jpg");
+
   width: 100%;
-height: 100%;
-background-repeat: no-repeat;
-background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.btn:hover{
-  background-color:#211F21;
-  border:none;
+.btn:hover {
+  background-color: #211f21;
+  border: none;
+}
+.card{
+  height:180px;
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+.card:hover{
+  height: 100%;
 }

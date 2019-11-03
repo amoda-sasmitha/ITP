@@ -137,7 +137,6 @@
   background-position: center;
 }
 
-
 .titles {
   font-size: 25px;
   font-family: "Montserrat" !important;
@@ -158,75 +157,3 @@
 .hrline {
   color: white !important;
 }
-
-/* 
-      ##Device = Low Resolution Tablets, Mobiles (Landscape)
-      ##Screen = B/w 481px to 767px
-    */
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .titles {
-    font-size: 15px;
-    font-family: "Montserrat" !important;
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  .detailsBox {
-    background-color: rgba(255, 255, 255, 0.11);
-    max-width: 650px;
-    border-radius: 30px;
-  }
-  .labelDetails {
-    font-size: 10px;
-    font-family: "Montserrat" !important;
-    padding-left: 20px !important;
-  }
-  .detailsTitle {
-    font-size: 18px;
-    font-family: "Montserrat" !important;
-  }
-  .iconDetails {
-    font-size: 20px;
-  }
-}
-
-/* 
-      ##Device = Most of the Smartphones Mobiles (Portrait)
-      ##Screen = B/w 320px to 479px
-    */
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .titles {
-    font-size: 15px;
-    font-family: "Montserrat" !important;
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  .detailsBox {
-    background-color: rgba(255, 255, 255, 0.11);
-    max-width: 650px;
-    border-radius: 30px;
-  }
-  .labelDetails {
-    font-size: 10px;
-    font-family: "Montserrat" !important;
-    padding-left: 20px !important;
-  }
-  .detailsTitle {
-    font-size: 18px;
-    font-family: "Montserrat" !important;
-  }
-  .iconDetails {
-    font-size: 20px;
-  }
-}
-.btn{
-    padding-bottom: 10px;
-}
-
-.inputBox{
-  border-radius: 10px;
-  max-width: 500px;
-}
-.custom-select{border-radius: 10px;
-  max-width: 500px;}

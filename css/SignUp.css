@@ -49,17 +49,14 @@
   color: white;
 }
 .back {
-  background-image: linear-gradient(
-      0deg,
-      rgba(9, 9, 16, 0.8) 50%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background-image: 
     url("../uploads/signinBackImage.png");
   background-repeat: no-repeat;
   /* background-size: contain; */
   width: 100%;
   height: 100%;
   background-size: cover;
+	
 }
 .ageText {
   color: white;
